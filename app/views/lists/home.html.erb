@@ -1,0 +1,7 @@
+<h1>Lists#home</h1>
+<p>Find me in app/views/lists/home.html.erb</p>
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= link_to list.name , "oui"%></li>
+  <% end %>
+</ul>
